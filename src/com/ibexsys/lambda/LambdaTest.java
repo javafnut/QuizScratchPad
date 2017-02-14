@@ -14,6 +14,6 @@ public class LambdaTest {
 
         r.run();
         hello.perform();
-        msg.perform("FooBarHere");
+        msg.perform("FooBarHereThere");
     }
 }
