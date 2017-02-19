@@ -13,7 +13,7 @@ public class PrintfTest1 {
         System.out.printf("%s", x);
         System.out.printf("%b", x);
         System.out.printf("%c", c);
-        System.out.printf("%S.Of", x);
+        System.out.printf("%5.0f", x);
         System.out.printf("%d", i);
 
 

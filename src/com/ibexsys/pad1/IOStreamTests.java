@@ -1,6 +1,6 @@
 package com.ibexsys.pad1;
 
-import java.io.IOException;
+import java.io.FileInputStream;
 
 /**
  * Created by tj on 2/13/17.
@@ -12,10 +12,13 @@ public class IOStreamTests {
 //    }
 
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
-        //Math.r
+        FileInputStream fis;
 
+        // try (fis = new FileInputStream("java.txt");){
 
     }
+
+
 }
